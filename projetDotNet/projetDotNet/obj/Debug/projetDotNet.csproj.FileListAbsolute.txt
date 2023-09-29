@@ -1,0 +1,184 @@
+C:\Users\mmyai\source\repos\projetDotNet\bin\projetDotNet.dll.config
+C:\Users\mmyai\source\repos\projetDotNet\bin\projetDotNet.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\projetDotNet.pdb
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\csc.exe
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\csc.exe.config
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\csc.rsp
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\csi.exe
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\csi.exe.config
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\csi.rsp
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.AppContext.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Console.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.IO.Compression.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Net.Http.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Net.Sockets.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.ValueTuple.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\vbc.exe
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\vbc.exe.config
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\vbc.rsp
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\VBCSCompiler.exe
+C:\Users\mmyai\source\repos\projetDotNet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mmyai\source\repos\projetDotNet\bin\Antlr3.Runtime.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\EntityFramework.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\EntityFramework.SqlServer.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\Newtonsoft.Json.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Helpers.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Mvc.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Optimization.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Razor.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.WebPages.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.WebPages.Razor.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\WebGrease.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\EntityFramework.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\EntityFramework.SqlServer.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Helpers.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Mvc.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Optimization.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.Razor.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.WebPages.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\System.Web.WebPages.Razor.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\Newtonsoft.Json.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\Antlr3.Runtime.pdb
+C:\Users\mmyai\source\repos\projetDotNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\EntityFramework.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\System.Web.Razor.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\mmyai\source\repos\projetDotNet\obj\Debug\projetDotNet.csproj.AssemblyReference.cache
+C:\Users\mmyai\source\repos\projetDotNet\obj\Debug\projetDotNet.csproj.CoreCompileInputs.cache
+C:\Users\mmyai\source\repos\projetDotNet\obj\Debug\projetDotNet.csproj.CopyComplete
+C:\Users\mmyai\source\repos\projetDotNet\obj\Debug\projetDotNet.dll
+C:\Users\mmyai\source\repos\projetDotNet\obj\Debug\projetDotNet.pdb
+C:\Users\mmyai\source\repos\projetDotNet\bin\SimpleCrypto.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\projetDotNet.dll.config
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\projetDotNet.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\projetDotNet.pdb
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\csc.exe
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\csc.exe.config
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\csc.rsp
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\csi.exe
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\csi.exe.config
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\csi.rsp
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.AppContext.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Console.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.IO.Compression.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Net.Http.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Net.Sockets.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.ValueTuple.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\vbc.exe
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\vbc.exe.config
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\vbc.rsp
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\VBCSCompiler.exe
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\Antlr3.Runtime.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\EntityFramework.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\EntityFramework.SqlServer.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\Newtonsoft.Json.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\SimpleCrypto.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Helpers.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Mvc.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Optimization.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Razor.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.WebPages.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.WebPages.Razor.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\WebGrease.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\EntityFramework.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\EntityFramework.SqlServer.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Helpers.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Mvc.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Optimization.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.Razor.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.WebPages.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\System.Web.WebPages.Razor.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\Newtonsoft.Json.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\Antlr3.Runtime.pdb
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\EntityFramework.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\System.Web.Razor.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\obj\Debug\projetDotNet.csproj.AssemblyReference.cache
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\obj\Debug\projetDotNet.csproj.CoreCompileInputs.cache
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\obj\Debug\projetDotNet.csproj.CopyComplete
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\obj\Debug\projetDotNet.dll
+C:\Users\lahya\OneDrive\Bureau\projetDotNet (2)\projetDotNet\obj\Debug\projetDotNet.pdb

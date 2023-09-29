@@ -1,0 +1,86 @@
+﻿@model IEnumerable<projetDotNet.Models.Game>
+
+@{
+    ViewBag.Title = "Index";
+}
+<h3>@ViewBag.Message</h3>
+<h2 style="text-align:center">La liste des jeux disponibles dans notre stock</h2>
+<br />
+
+<p>
+    <div  style="text-align:center"> 
+        @using (@Html.BeginForm("Index", "AdminInterface", FormMethod.Get))
+
+        {<b> Chercher par :</b>
+
+            @Html.RadioButton("searchBy", "Nom", true)<text>Nom</text>
+            @Html.RadioButton("searchBy", "Genre", true)<text>Genre</text>
+            @Html.TextBox("search")
+            <input type="submit" value="Search" />
+        }
+    </div>
+</p>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+        </th>
+        <th>
+            @Html.ActionLink("Nom", "Index", new { sortBy = ViewBag.SortNomParameter, searchBy = Request.QueryString["searchBy"], search = Request["search"] })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Editeur)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_de_sortie)
+        </th>
+        <th>
+            @Html.ActionLink("Genre", "Index", new { sortBy = ViewBag.SortGenreParameter, searchBy = Request.QueryString["searchBy"], search = Request["search"] })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img class="rounded-circle" src="@item.ImageURL" alt="@item.Nom" style="max-width: 150px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editeur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date_de_sortie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

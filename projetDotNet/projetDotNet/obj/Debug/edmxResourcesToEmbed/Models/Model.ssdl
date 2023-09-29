@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="First name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="isAdmin" Type="int" />
+  </EntityType>
+  <EntityType Name="cart">
+    <Key>
+      <PropertyRef Name="CartID" />
+      <PropertyRef Name="GameID" />
+    </Key>
+    <Property Name="CartID" Type="int" Nullable="false" />
+    <Property Name="GameID" Type="int" Nullable="false" />
+    <Property Name="clientID" Type="int" Nullable="false" />
+    <Property Name="date" Type="date" />
+    <Property Name="quantité" Type="int" />
+    <Property Name="GameName" Type="varchar" MaxLength="50" />
+    <Property Name="numeroCommande" Type="int" />
+  </EntityType>
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom" Type="varchar" MaxLength="50" />
+    <Property Name="Editeur" Type="varchar" MaxLength="50" />
+    <Property Name="Date de sortie" Type="date" />
+    <Property Name="Genre" Type="varchar" MaxLength="50" />
+    <Property Name="Description" Type="varchar(max)" />
+    <Property Name="ImageURL" Type="varchar(max)" />
+    <Property Name="Price" Type="float" />
+  </EntityType>
+  <Association Name="FK_cart_ToTable">
+    <End Role="Account" Type="Self.Account" Multiplicity="1" />
+    <End Role="cart" Type="Self.cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="cart">
+        <PropertyRef Name="clientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cart_ToTable_1">
+    <End Role="Game" Type="Self.Game" Multiplicity="1" />
+    <End Role="cart" Type="Self.cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="cart">
+        <PropertyRef Name="GameID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="cart" EntityType="Self.cart" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Game" EntityType="Self.Game" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_cart_ToTable" Association="Self.FK_cart_ToTable">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="cart" EntitySet="cart" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cart_ToTable_1" Association="Self.FK_cart_ToTable_1">
+      <End Role="Game" EntitySet="Game" />
+      <End Role="cart" EntitySet="cart" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

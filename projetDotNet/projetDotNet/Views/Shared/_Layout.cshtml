@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mon application ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="more options">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("GameStore", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"  style=" text-align: center; font-family: 'Games' ,sans-serif; color:white">
+                    @if (User.Identity.IsAuthenticated && System.Web.HttpContext.Current.User.Identity.Name.ToString() == "1")
+                    {
+                        <li>@Html.ActionLink("Logout", "Logout", "Account")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("À propos de", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+                        if (User.Identity.IsAuthenticated)
+                        {
+
+                            <li>@Html.ActionLink("Logout", "Logout", "Account")</li>
+                            <li>@Html.ActionLink("cart", "cart", "InterfaceUser")</li>
+
+                        }
+                        else
+                        {
+
+                            <li>@Html.ActionLink("login", "login", "Account")</li>
+                        }
+                    }
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer style="color:white;text-align:center">
+            <p>&copy; @DateTime.Now.Year - GameStore.</p>
+            <p> Developped by : Lahyani Med Amine & Yaich Malek.</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

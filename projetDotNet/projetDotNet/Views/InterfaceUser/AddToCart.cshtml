@@ -1,0 +1,46 @@
+﻿@model projetDotNet.Models.cart
+
+@{
+    ViewBag.Title = "AddToCart";
+}
+
+<style>
+
+    body {
+        margin-top: 20px;
+        background: #e2e2e5;
+        background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-carbon-fiber-abstract-background-with-red-lights-picture-image_1200965.jpg");
+        background-repeat: repeat;
+        background-position: top;
+    }
+</style>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal ">
+            <h2 style=" text-align: center; font-family: 'Games' ,sans-serif; color:white"> Passer commande</h2>
+            <hr />
+
+            <div class="form-group" style="color:white;text-align:right" >
+                @Html.LabelFor(model => model.quantité, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.quantité, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.quantité, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group" style="color:white;text-align:left" >
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Créer" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div  style="text-align:center">
+        @Html.ActionLink("Retour à l'écran d'acceuil", "Index")
+    </div>
+</body>

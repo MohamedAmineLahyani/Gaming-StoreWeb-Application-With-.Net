@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="239be779ef244e5db85ecf0727df09c9" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="Database1Model.Game" Width="1.5" PointX="6.125" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Account" Width="1.5" PointX="0.75" PointY="1.25" />
+        <EntityTypeShape EntityType="Database1Model.cart" Width="1.5" PointX="3.5" PointY="1.25" />
+        <AssociationConnector Association="Database1Model.FK_cart_ToTable" />
+        <AssociationConnector Association="Database1Model.FK_cart_ToTable_1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

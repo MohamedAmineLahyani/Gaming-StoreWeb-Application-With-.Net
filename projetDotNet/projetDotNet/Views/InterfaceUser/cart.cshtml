@@ -1,0 +1,64 @@
+﻿@model IEnumerable<projetDotNet.Models.cart>
+
+@{
+    ViewBag.Title = "cart";
+}
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+</head>
+
+
+<style>
+
+    body {
+        margin-top: 20px;
+        background: #e2e2e5;
+        background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-carbon-fiber-abstract-background-with-red-lights-picture-image_1200965.jpg");
+        background-repeat: repeat;
+        background-position: top;
+    }
+</style>
+
+<body>
+    <h2 style=" text-align: center; font-family: 'Games' ,sans-serif; color:white"> Cart</h2>
+
+    <table class="table">
+        <tr>
+            <th> Game </th>
+            <th>
+                Quantité
+            </th>
+
+            <th> Date</th>
+            <th> </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            if (item.clientID == int.Parse(System.Web.HttpContext.Current.User.Identity.Name))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GameName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.quantité)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.date)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "EditCart", new { id = item.CartID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.CartID })
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+
+    <p>
+        @Html.ActionLink("valider", "valider") |
+        @Html.ActionLink("Back to shop", "index")
+    </p>
+</body>

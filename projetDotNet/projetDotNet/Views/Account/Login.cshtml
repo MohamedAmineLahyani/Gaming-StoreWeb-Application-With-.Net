@@ -1,0 +1,95 @@
+﻿@model projetDotNet.Models.Account
+
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+<head>
+    <link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/Content/zina.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="~/Content/java.js">
+    </script>
+</head>
+
+<style>
+    body {
+        margin-top: 20px;
+        background: #e2e2e5;
+        background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-carbon-fiber-abstract-background-with-red-lights-picture-image_1200965.jpg");
+        background-repeat: repeat;
+        background-position: top;
+    }
+    .page {
+        margin-top: 20px;
+        background: #e2e2e5;
+        background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-carbon-fiber-abstract-background-with-red-lights-picture-image_1200965.jpg");
+        background-repeat: repeat;
+        background-position: top;
+    }
+</style>>
+<body>
+    <div class="page">
+
+        <div class="container">
+            <div class="left">
+                <div class="login" style="text-align: center;  font-family: 'Games',sans-serif; color:black">Login</div>
+                <div class="eula" style="text-align: center;  font-family: 'Games',sans-serif; color:black">Connectez vous afin de pouvoir commander et profiter de nos services ! </div>
+            </div>
+            <div class="right"  style="background-color: #dd000f ">
+                <svg viewBox="0 0 320 300">
+                    <defs>
+                        <linearGradient inkscape:collect="always"
+                                        color="black"
+                                        id="linearGradient"
+                                        x1="13"
+                                        y1="193.49992"
+                                        x2="307"
+                                        y2="193.49992"
+                                        gradientUnits="userSpaceOnUse">
+                            <stop style="stop-color:black;"
+                                  offset="0"
+                                  id="stop876" />
+                            <stop style="stop-color:#ff0000;"
+                                  offset="1"
+                                  id="stop878" />
+                        </linearGradient>
+                    </defs>
+                    <path d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
+                </svg>
+
+                @using (Html.BeginForm())
+                {
+
+                    <div class="form">
+
+                        <div class="form-group" style="color: white; font-family: 'Games',sans-serif;">
+                            @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group" style="color: white; font-family: 'Games',sans-serif;">
+                            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Se connecter" id="submit" style="color: white; font-family: 'Games',sans-serif;" />
+                            </div>
+                        </div>
+                    </div>
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger font-weight-bold" })
+
+                }
+
+            </div>
+
+        </div>
+    </div>
+</body>
